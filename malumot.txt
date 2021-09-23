@@ -1,0 +1,3 @@
+Bu malumotlar register uchun yani databasa va django . 
+Youtube codemy kannalidan
+pip insall django 

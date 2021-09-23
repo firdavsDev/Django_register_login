@@ -1,0 +1,12 @@
+
+{% extends 'base.html' %}
+    {% block content %}
+    <h3>Malumotlar bazasi</h1><br>
+    {% for item in all %}
+    <ul><strong> Ism: {{ item.fname }} {{ item.lname }} <br> <br></strong> 
+        <li>Email: {{ item.email }} <br></li>
+        <li> Age: {{ item.age }} <br> </li> <br> <hr>
+    </ul>
+    {% endfor %}
+
+    {% endblock %}
